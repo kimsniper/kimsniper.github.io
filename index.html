@@ -3,16 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mezael Docoy | Robotics Portfolio</title>
+  <title>Mezael Docoy | Robotics & Embedded Systems Engineer</title>
   <style>
     body {
-      font-family: sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
       color: #333;
+      line-height: 1.6;
     }
-    h1 {
-      color: #222;
+    header {
+      background-color: #0366d6;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 1.2rem;
     }
     a {
       color: #0366d6;
@@ -21,24 +47,107 @@
     a:hover {
       text-decoration: underline;
     }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .container {
+        padding: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Mezael Docoy (kimsniper)</h1>
-  <p>I'm a robotics and embedded systems engineer passionate about building real-time control systems and autonomous machines.</p>
 
-  <h2>🔧 Featured Projects</h2>
-  <ul>
-    <li>
-      <a href="https://github.com/kimsniper/argus" target="_blank"><strong>ARGUS</strong></a> – ESP32-CAM Face Tracking Gimbal  
-    </li>
-    <li>
-      <a href="https://github.com/kimsniper/themis" target="_blank"><strong>THEMIS</strong></a> – Self-balancing servo system using MPU6050 and PID control
-    </li>
-  </ul>
+  <header>
+    <h1>👋 Mezael Docoy</h1>
+    <p>Robotics & Embedded Systems Engineer</p>
+  </header>
 
-  <h2>📫 Contact</h2>
-  <p>Email: kim1991mail@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/kimsniper">kimsniper</a></p>
+  <div class="container">
+    <section>
+      <h2>👤 About Me</h2>
+      <p>
+        I'm a Robotics Software Engineer with a dual degree in <strong>Electrical and Computer Engineering</strong>. 
+        I specialize in embedded systems, autonomous robots, and real-time control systems. I enjoy designing 
+        and building systems that integrate firmware, hardware, and AI especially for robotic platforms.
+      </p>
+    </section>
+
+    <section>
+      <h2>💼 Experience</h2>
+
+      <h3>2025–Present — Zimplistic Philippines</h3>
+      <p><strong>Embedded Engineer – Kitchen Robotics</strong></p>
+      <ul>
+        <li>Research and development for smart kitchen robotics</li>
+        <li>Develop embedded algorithms for motor control and system automation</li>
+        <li>Designed and tuned PID algorithms for DC motors and actuators</li>
+        <li>Integrated sensors such as load cells and encoders for real-time feedback</li>
+      </ul>
+
+      <h3>2024–2025 — CATACS LLC</h3>
+      <p><strong>Software Engineer – Robotics</strong></p>
+      <ul>
+        <li>Developed robotic control systems using ROS2, Gazebo, and RViz2</li>
+        <li>Integrated SLAM (VINS-RGBD, RTAB-Map), Nav2, and sensor data fusion</li>
+        <li>Built custom URDFs and control stacks for a swerve-drive robot using Jetson</li>
+      </ul>
+
+      <h3>2022–2024 — FPT Automotive Philippines</h3>
+      <p><strong>Embedded Software Engineer, AI & Robotics</strong></p>
+      <ul>
+        <li>Led a team developing AI-based robotic arm control via embedded ML</li>
+        <li>Worked on AUTOSAR Complex Device Drivers (CDD) using STM32 and NXP MCUs</li>
+        <li>Tools: TensorFlow Lite, MBed OS, RTOS, Git, Atlassian Suite</li>
+      </ul>
+
+      <h3>2021–2022 — Xeleqt Technology Innovations Inc.</h3>
+      <p><strong>Hardware Development Engineer</strong></p>
+      <ul>
+        <li>Built firmware for IoT devices using ESP32 and Raspberry Pi</li>
+        <li>Worked with UART, I2C, SPI drivers and FreeRTOS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📌 Featured Projects</h2>
+      <ul>
+        <li><a href="https://github.com/kimsniper/argus" target="_blank"><strong>ARGUS</strong></a> – ESP32-CAM Face Tracking Gimbal</li>
+        <li><a href="https://github.com/kimsniper/themis" target="_blank"><strong>THEMIS</strong></a> – PID-based balancing system using MPU6050</li>
+        <li><a href="https://github.com/kimsniper" target="_blank">View all projects on GitHub →</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠 Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C, C++, Python, MicroPython, Bash</li>
+        <li><strong>Platforms:</strong> STM32, ESP32, Jetson, ROS2, Zephyr RTOS</li>
+        <li><strong>Tools:</strong> VS Code, Git, FreeRTOS, TensorFlow Lite, Gazebo, Rviz2</li>
+        <li><strong>Hardware:</strong> DC/Stepper Motors, Encoders, IMUs, Depth Cameras</li>
+        <li><strong>Protocols:</strong> UART, I2C, SPI</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📫 Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:kim1991mail@gmail.com">kim1991mail@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/kimsniper" target="_blank">kimsniper</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/mezaeldocoy" target="_blank">mezaeldocoy</a></p>
+      <p><strong>Location:</strong> Dumaguete City, Philippines</p>
+    </section>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Mezael Docoy
+  </div>
+
 </body>
 </html>
